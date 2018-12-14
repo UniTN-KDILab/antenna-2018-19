@@ -1,0 +1,703 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lucadallasta/ontologies/2018/10/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lucadallasta/ontologies/2018/10/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.semanticweb.org/lucadallasta/ontologies/2018/10/untitled-ontology-11"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Antenna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CircularPolarization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPRSProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPSAntenna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPSProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GSMAntenna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GSMProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HorizontalPolarization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftHandCircularPolarization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinearPolarization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MindProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polarization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RF_Protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RealProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightHandCircularPolarization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMAConnector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMAFemaleConnector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMAMaleConnector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TelemetryAntenna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeNConnector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFLConnector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VerticalPolarization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WiFiProtocol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConnector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFrequency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhoto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPolarization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProtocol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConnectorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFrequencyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPhotoOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPolarizationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProtocolOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Application"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Category"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dimension"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Directive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Impedance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Plug"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Power"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Connector1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Frequency1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Photo1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polarization1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RFProtocol1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Antenna"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CircularPolarization"/>
+        <Class IRI="#Polarization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connector"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequency"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPRSProtocol"/>
+        <Class IRI="#RF_Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPSAntenna"/>
+        <Class IRI="#Antenna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPSProtocol"/>
+        <Class IRI="#RF_Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GSMAntenna"/>
+        <Class IRI="#Antenna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GSMProtocol"/>
+        <Class IRI="#RF_Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorizontalPolarization"/>
+        <Class IRI="#LinearPolarization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftHandCircularPolarization"/>
+        <Class IRI="#CircularPolarization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LinearPolarization"/>
+        <Class IRI="#Polarization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photo"/>
+        <Class IRI="#RealProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polarization"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RF_Protocol"/>
+        <Class IRI="#Rules"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RealProduct"/>
+        <Class IRI="#MindProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightHandCircularPolarization"/>
+        <Class IRI="#CircularPolarization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rules"/>
+        <Class IRI="#MindProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMAConnector"/>
+        <Class IRI="#Connector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMAFemaleConnector"/>
+        <Class IRI="#SMAConnector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMAMaleConnector"/>
+        <Class IRI="#SMAConnector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelemetryAntenna"/>
+        <Class IRI="#Antenna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypeNConnector"/>
+        <Class IRI="#Connector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFLConnector"/>
+        <Class IRI="#Connector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VerticalPolarization"/>
+        <Class IRI="#LinearPolarization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WiFiProtocol"/>
+        <Class IRI="#RF_Protocol"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#SMAMaleConnector"/>
+        <NamedIndividual IRI="#Connector1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPSAntenna"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GSMAntenna"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TelemetryAntenna"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frequency"/>
+        <NamedIndividual IRI="#Frequency1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photo"/>
+        <NamedIndividual IRI="#Photo1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LinearPolarization"/>
+        <NamedIndividual IRI="#Polarization1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPRSProtocol"/>
+        <NamedIndividual IRI="#RFProtocol1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GSMProtocol"/>
+        <NamedIndividual IRI="#RFProtocol1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isConnectorOf"/>
+        <NamedIndividual IRI="#Connector1"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConnector"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <NamedIndividual IRI="#Connector1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <NamedIndividual IRI="#Frequency1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPhoto"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <NamedIndividual IRI="#Photo1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPolarization"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <NamedIndividual IRI="#Polarization1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <NamedIndividual IRI="#RFProtocol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFrequencyOf"/>
+        <NamedIndividual IRI="#Frequency1"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPhotoOf"/>
+        <NamedIndividual IRI="#Photo1"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPolarizationOf"/>
+        <NamedIndividual IRI="#Polarization1"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isProtocolOf"/>
+        <NamedIndividual IRI="#RFProtocol1"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Plug"/>
+        <NamedIndividual IRI="#Connector1"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Connector1"/>
+        <Literal>SMA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Application"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal>GPS, GSM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Category"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal>Multiband</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Dimension"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">86.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Directive"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gain"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Impedance"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">50.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal>Antenna multibanda EAD FMAG35153-SM-3K</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Power"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#FMAG35153-SM-3K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">11.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Value"/>
+        <NamedIndividual IRI="#Frequency1"/>
+        <Literal>824-960/1710-2170</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Image"/>
+        <NamedIndividual IRI="#Photo1"/>
+        <Literal>https://media.rs-online.com/t_medium/R6673025-01.jpg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Polarization1"/>
+        <Literal>Linear</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#RFProtocol1"/>
+        <Literal>GSM/GPRS</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasConnector"/>
+        <ObjectProperty IRI="#isConnectorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <ObjectProperty IRI="#isFrequencyOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPhoto"/>
+        <ObjectProperty IRI="#isPhotoOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPolarization"/>
+        <ObjectProperty IRI="#isPolarizationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <ObjectProperty IRI="#isProtocolOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isPolarizationOf"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConnector"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPhoto"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPolarization"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConnectorOf"/>
+        <Class IRI="#Connector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFrequencyOf"/>
+        <Class IRI="#Frequency"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPhotoOf"/>
+        <Class IRI="#Photo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPolarizationOf"/>
+        <Class IRI="#Polarization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProtocolOf"/>
+        <Class IRI="#RF_Protocol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConnector"/>
+        <Class IRI="#Connector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFrequency"/>
+        <Class IRI="#Frequency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPhoto"/>
+        <Class IRI="#Photo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPolarization"/>
+        <Class IRI="#Polarization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProtocol"/>
+        <Class IRI="#RF_Protocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConnectorOf"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFrequencyOf"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPhotoOf"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPolarizationOf"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProtocolOf"/>
+        <Class IRI="#Antenna"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Application"/>
+        <Class IRI="#Antenna"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Category"/>
+        <Class IRI="#Antenna"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Dimension"/>
+        <Class IRI="#Antenna"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Directive"/>
+        <Class IRI="#Antenna"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gain"/>
+        <Class IRI="#Antenna"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Image"/>
+        <Class IRI="#Photo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Impedance"/>
+        <Class IRI="#Antenna"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Plug"/>
+        <Class IRI="#Connector"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Power"/>
+        <Class IRI="#Antenna"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Price"/>
+        <Class IRI="#Antenna"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type"/>
+        <Class IRI="#Connector"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type"/>
+        <Class IRI="#Polarization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type"/>
+        <Class IRI="#RF_Protocol"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Value"/>
+        <Class IRI="#Frequency"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Application"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Category"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Dimension"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Directive"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gain"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Image"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Impedance"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Plug"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Power"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Price"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Connector1</IRI>
+        <Literal>This is a sample connector.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FMAG35153-SM-3K</IRI>
+        <Literal>This is a sample antenna. It is a multiband one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Frequency1</IRI>
+        <Literal>This is a sample frequency for GPS-GSM application.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Photo1</IRI>
+        <Literal>The URL reaches the photo of an antenna.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Polarization1</IRI>
+        <Literal>This is the specific polarization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RFProtocol1</IRI>
+        <Literal>This is the communication protocol.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
