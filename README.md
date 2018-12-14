@@ -11,10 +11,10 @@ M.Sc. Information and Communication Engineer
 
 ## Content
 ### Antennas - 1.xlsx
-Excel file containing a dataset extracted from e-Commerce website.
+Excel file containing a dataset extracted from antenna datasheets.
 
 ### Antennas - 2.xlsx
-Excel file containing a dataset extracted from antenna datasheets.
+Excel file containing a dataset extracted from e-Commerce website.
 
 ### Antennas - 3.xlsx
 Excel file containing information about the applications.
